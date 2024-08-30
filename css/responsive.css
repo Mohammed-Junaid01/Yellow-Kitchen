@@ -1,0 +1,119 @@
+@media only screen and (max-width: 600px) {
+    .card-flex{
+        display: none;
+    }
+    .btn-flex{
+        gap: 10px;
+    }
+    .food h1 {
+        font-family: Poppins;
+        font-size: 52px;
+        font-weight: 300;
+        line-height: 64px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        margin: 50px 0px;
+    }
+    .del-btn {
+        padding: 10px;
+        border-radius: 4px;
+        border: 2px solid #FFE145;
+        text-align: center;
+        font-size: 16px;
+        background-color: #f6f6e038;
+    }
+    .bg-img {
+        background: url(../images/Photo.png) no-repeat;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        /* width: 803px; */
+        /* height: 706px; */
+    }
+    .side-nav {
+        position: fixed;
+        top: 79px;
+        right: 0;
+        z-index: 10;
+        width: 50%;
+        background-color: #ffffff;
+        height: 100vh;
+        padding: 20px 30px;
+        box-shadow: 0px 0px 4px gray;
+        transform: translateX(100%);
+        transition: 0.5s;
+    }
+    .res-img img{
+        width: 80%;
+        margin: auto;
+    }
+
+    .a-flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+
+    .slick-prev, .slick-next {
+        display: none !important;
+    }
+
+    .add {
+        width: 90%;
+    }
+    
+    .address {
+        width: 90%;
+    }
+
+    .slick-prev:before, .slick-next:before {
+        color: #b4a9a9;
+        display: none;
+    }
+
+    .hashtag {
+        font-family: "Poppins";
+        font-size: 30px;
+        font-weight: 300 !important;
+        line-height: 48px;
+        letter-spacing: 0.08em;
+        text-align: left;
+    }
+
+    .flex-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .hidden img {
+        transform: scale(1);
+        transition: 0.5s;
+        padding: 10px;
+    }
+
+    .hidden {
+        padding: 5px;
+        overflow: hidden;
+        /* width: 100%; */
+        /* height: 100%; */
+        border-radius: 5px;
+    }
+
+    .footer-flex{
+        flex-wrap: wrap;
+    }
+
+    .about{
+        padding: 10px;
+    }
+    .meta{
+        padding: 5px;
+        gap: 10px;
+    }
+    .policy{
+        gap: 10px;
+    }
+}
